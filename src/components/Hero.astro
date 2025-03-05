@@ -1,0 +1,20 @@
+---
+/* Componente Hero: Sección inicial con imagen de fondo y mensaje de bienvenida */
+---
+
+<section
+	id='home'
+	class='relative bg-cover bg-center h-screen'
+	style="background-image: url('/images/hero-bg.jpg');">
+	<!-- Capa superpuesta para mejorar la legibilidad del texto -->
+	<div class='absolute inset-0 bg-black opacity-50'></div>
+	<div class='relative z-10 flex flex-col items-center justify-center h-full text-center px-4'>
+		<h1 class='text-4xl md:text-6xl font-bold text-white mb-4'>Bienvenidos a Trattoria Romolo</h1>
+		<p class='text-lg md:text-2xl text-white mb-8'>Vive la auténtica experiencia italiana y napolitana</p>
+		<a
+			href='#menu'
+			class='bg-red-500 hover:bg-red-600 text-white py-3 px-6 rounded'>
+			Ver Nuestro Menú
+		</a>
+	</div>
+</section>

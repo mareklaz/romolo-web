@@ -1,0 +1,51 @@
+---
+/* 
+  Componente MenuCategory: Renderiza una categoría del menú.
+  Props:
+    - categoryTitle: string (nombre de la categoría)
+    - categoryImage: string (ruta de la imagen representativa)
+    - menuItems: array de objetos con { product, price, description }
+*/
+interface MenuItem {
+	product: string;
+	price: string;
+	description: string;
+}
+
+const props = Astro.props as { categoryTitle: string; categoryImage: string; menuItems: MenuItem[] };
+
+const { categoryTitle = '', categoryImage = '', menuItems = [] } = props;
+---
+
+<section
+	id={categoryTitle.toLowerCase().replace(/\s+/g, '-')}
+	class='py-8'>
+	<div class='container mx-auto px-4'>
+		<!-- Imagen representativa de la categoría -->
+		<div class='mb-4'>
+			<img
+				src={categoryImage}
+				alt={categoryTitle}
+				class='w-full h-64 object-cover bg-center bg- rounded'
+			/>
+		</div>
+		<!-- Título de la categoría -->
+		<h2 class='text-3xl font-bold text-center mb-6'>{categoryTitle}</h2>
+		<!-- Lista de items de la categoría -->
+		<ul class='space-y-4'>
+			{
+				menuItems.map((item) => (
+					<li class='flex flex-col md:flex-row justify-between items-start md:items-center border-b pb-4'>
+						<div>
+							<h3 class='text-xl font-semibold'>{item.product}</h3>
+							<p class='text-gray-600'>{item.description}</p>
+						</div>
+						<div class='mt-2 md:mt-0'>
+							<span class='text-xl font-bold'>{item.price}</span>
+						</div>
+					</li>
+				))
+			}
+		</ul>
+	</div>
+</section>

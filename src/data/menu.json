@@ -1,0 +1,443 @@
+{
+	"categories": [
+		{
+			"name": "Antipasti",
+			"image": "/images/antipasti.jpg",
+			"items": [
+				{
+					"product": "Provolone al forno",
+					"price": "11,90 €",
+					"description": "Láminas de queso provolone al horno con orégano."
+				},
+				{
+					"product": "Melanzane al forno",
+					"price": "14,50 €",
+					"description": "Berenjena al horno con mozzarella, jamón york y tomate."
+				},
+				{
+					"product": "Setas al brandy",
+					"price": "14,30 €",
+					"description": "Setas flambeadas con whisky y crema de nata."
+				},
+				{
+					"product": "Cozze a la marinara",
+					"price": "14,30 €",
+					"description": "Mejillones con salsa de tomate."
+				},
+				{
+					"product": "Carpaccio di melanzane",
+					"price": "14,30 €",
+					"description": "Láminas de berenjena con rúcula, parmesano, salsa de mostaza con miel y un toque de salsa de fresa."
+				},
+				{
+					"product": "Scamorza con salsa rosa",
+					"price": "14,90 €",
+					"description": "Queso ahumado al horno con panceta, parmesano y salsa rosa a la pimienta."
+				},
+				{
+					"product": "Focaccia con ajo y tomate",
+					"price": "7,50 €",
+					"description": "Base de pizza en triángulos con tomate, ajo y orégano."
+				},
+				{
+					"product": "Caponata",
+					"price": "13,30 €",
+					"description": "Pisto de berenjena, tomate, atún, aceitunas y orégano."
+				},
+				{
+					"product": "Ensalada romolo",
+					"price": "14,30 €",
+					"description": "Ensalada de rúcula, lechuga, tomate, queso de cabra, pulpo y cebolla, aderezada con crema balsámica."
+				},
+				{
+					"product": "Ensalada de burrata",
+					"price": "15,50 €",
+					"description": "Ensalada de burrata con tomate, berenjena y pesto."
+				},
+				{
+					"product": "Crespelle romolo",
+					"price": "14,90 €",
+					"description": "Crep rellena de calabacín, cebolla y champiñones, con mozzarella, crema de nata y tomate."
+				},
+				{
+					"product": "Pan de pizza",
+					"price": "4,00 €",
+					"description": "Base de pizza en triángulos con aceite y orégano."
+				}
+			]
+		},
+		{
+			"name": "Pasta fresca",
+			"image": "/images/pasta-fresca.jpg",
+			"items": [
+				{
+					"product": "Ravioli ossobuco",
+					"price": "16,30 €",
+					"description": "Ravioli rellenos de carne con salsa amatriciana."
+				},
+				{
+					"product": "Ravioli di pera",
+					"price": "16,30 €",
+					"description": "Ravioli rellenos de requesón y pera con jamón york y nata."
+				},
+				{
+					"product": "Ravioli di trufa",
+					"price": "16,90 €",
+					"description": "Ravioli rellenos de trufa con salsa de boletus, nata y crema de trufa."
+				},
+				{
+					"product": "Gnocchi",
+					"price": "15,50 €",
+					"description": "Ñoquis de patata con salsa cuatro quesos."
+				},
+				{
+					"product": "Fresine al pesto",
+					"price": "17,50 €",
+					"description": "Pasta fresca tipo trenette con salsa pesto."
+				},
+				{
+					"product": "Paccheri arrabiata",
+					"price": "16,30 €",
+					"description": "Pasta fresca con ajo, cebolla, tomate y guindilla."
+				}
+			]
+		},
+		{
+			"name": "Le nostre paste",
+			"image": "/images/le-nostre-paste.jpg",
+			"items": [
+				{
+					"product": "Spaghetti mare cielo e terra",
+					"price": "18,90 €",
+					"description": "Spaghetti con tomate, almejas, alcaparras, gambones, mejillones y aceitunas."
+				},
+				{
+					"product": "Spaghetti vongole",
+					"price": "16,90 €",
+					"description": "Spaghetti con almejas, perejil, tomate cherry y vino blanco."
+				},
+				{
+					"product": "Tagliatelle castello",
+					"price": "17,30 €",
+					"description": "Fettuccine con ajo, berenjena, champiñones, gambones y tomate."
+				},
+				{
+					"product": "Spaghetti integrale",
+					"price": "15,90 €",
+					"description": "Spaghetti integrale con verduras."
+				},
+				{
+					"product": "Maccheroni al forno con melanzane",
+					"price": "14,50 €",
+					"description": "Berenjena al horno con mozzarella, parmesano, provolone y salsa de tomate."
+				},
+				{
+					"product": "Rigatoni alla genovese",
+					"price": "14,90 €",
+					"description": "Rigatoni con carne, cebolla y zanahoria."
+				},
+				{
+					"product": "Lasagna al forno",
+					"price": "15,90 €",
+					"description": "Lasagna al horno con berenjena, carne picada, jamón york, salsa de tomate y bechamel."
+				},
+				{
+					"product": "Spaghetti la nonna",
+					"price": "15,50 €",
+					"description": "Spaghetti gratinados al horno con champiñones, jamón york, mozzarella, nata, parmesano y tomate."
+				},
+				{
+					"product": "Tagliatelle e vodka",
+					"price": "17,30 €",
+					"description": "Tagliatelle con burro, gambones, pimienta, ralladura de limón y vodka."
+				},
+				{
+					"product": "Rigatoni con pulpo y porcini",
+					"price": "17,50 €",
+					"description": "Rigatoni con ajo, boletus, pulpo, salsa de tomate y vino blanco."
+				},
+				{
+					"product": "Pasta sin gluten",
+					"price": "",
+					"description": "Suplemento de 2€ para la salsa."
+				}
+			]
+		},
+		{
+			"name": "Risotti",
+			"image": "/images/risotti.jpg",
+			"items": [
+				{
+					"product": "Ai funghi porcini",
+					"price": "17,90 €",
+					"description": "Risotto con boletus y parmesano."
+				},
+				{
+					"product": "Risotto con gambones",
+					"price": "18,50 €",
+					"description": "Risotto con gambones y ralladura de limón."
+				}
+			],
+			"note": "Mínimo para 2 personas (fin de semana por encargo)"
+		},
+		{
+			"name": "Le carni",
+			"image": "/images/le-carni.jpg",
+			"items": [
+				{
+					"product": "Carpaccio di vitello",
+					"price": "15,50 €",
+					"description": "Finas lonchas de solomillo con rúcula, parmesano y un toque de limón."
+				},
+				{
+					"product": "Petto di pollo whisky",
+					"price": "15,90 €",
+					"description": "Pechuga de pollo con salsa de whisky, nata y macarrones a la amatriciana."
+				},
+				{
+					"product": "Petto di pollo diavolo",
+					"price": "15,90 €",
+					"description": "Pechuga de pollo con macarrones a la amatriciana y salsa de tomate picante."
+				},
+				{
+					"product": "Petto di pollo al cava",
+					"price": "16,50 €",
+					"description": "Pechuga de pollo con salsa de cava, ajo, cebolla, pimienta y nata, acompañada de rigatoni con salsa rosa."
+				}
+			]
+		},
+		{
+			"name": "Pizzas",
+			"image": "/images/pizzas.jpg",
+			"items": [
+				{
+					"product": "Margarita",
+					"price": "12,30 €",
+					"description": "Mozzarella, tomate, albahaca y parmesano."
+				},
+				{
+					"product": "Prosciutto",
+					"price": "13,30 €",
+					"description": "Mozzarella, jamón y tomate."
+				},
+				{
+					"product": "Funghi e prosciutto",
+					"price": "14,30 €",
+					"description": "Champiñones, jamón, mozzarella y tomate."
+				},
+				{
+					"product": "Napolitana",
+					"price": "12,90 €",
+					"description": "Ajo, orégano, tomate y mozzarella."
+				},
+				{
+					"product": "Diavola",
+					"price": "14,30 €",
+					"description": "Mozzarella, salami picante y tomate."
+				},
+				{
+					"product": "Cavase",
+					"price": "14,30 €",
+					"description": "Bacon, cebolla, mozzarella y tomate."
+				},
+				{
+					"product": "Tropical",
+					"price": "14,90 €",
+					"description": "Jamón, mozzarella, piña y tomate."
+				},
+				{
+					"product": "Melanzane",
+					"price": "13,30 €",
+					"description": "Mozzarella, tomate y berenjena."
+				},
+				{
+					"product": "Pesto",
+					"price": "15,50 €",
+					"description": "Mozzarella, pesto, queso provolone y tomate natural."
+				},
+				{
+					"product": "Vegetale",
+					"price": "15,50 €",
+					"description": "Mozzarella, tomate y verduras."
+				},
+				{
+					"product": "Marinara",
+					"price": "14,50 €",
+					"description": "Anchoas, mozzarella, orégano y tomate."
+				},
+				{
+					"product": "Don pepino",
+					"price": "15,50 €",
+					"description": "Mozzarella, jamón york, huevo y tomate natural."
+				},
+				{
+					"product": "Cuatro formaggi",
+					"price": "14,90 €",
+					"description": "Mozzarella, tomate y selección de quesos variados."
+				},
+				{
+					"product": "Calzone",
+					"price": "15,90 €",
+					"description": "Sorpresa."
+				},
+				{
+					"product": "Barbacoa",
+					"price": "15,50 €",
+					"description": "Carne picada, bacon, mozzarella, salsa barbacoa y tomate."
+				},
+				{
+					"product": "Carbonara",
+					"price": "15,50 €",
+					"description": "Bacon, huevo, mozzarella, nata y parmesano."
+				},
+				{
+					"product": "Cuatro stagioni",
+					"price": "15,50 €",
+					"description": "Aceitunas, champiñones, jamón york, mozzarella, pimientos y tomate."
+				},
+				{
+					"product": "Positano",
+					"price": "15,90 €",
+					"description": "Mozzarella, queso de cabra, salchicha fresca y tomate."
+				},
+				{
+					"product": "Amalfitana",
+					"price": "15,90 €",
+					"description": "Jamón serrano, mozzarella, parmesano, rúcula y tomate."
+				},
+				{
+					"product": "Romolo",
+					"price": "15,90 €",
+					"description": "Carne picada, cebolla, mozzarella, requesón, tomate y berenjena."
+				},
+				{
+					"product": "Strombolli",
+					"price": "16,90 €",
+					"description": "Cebolla, pollo, pimiento, rúcula, salsa de mostaza y miel y tomate."
+				},
+				{
+					"product": "Tartufo",
+					"price": "15,90 €",
+					"description": "Mozzarella, salchicha fresca, tomate y trufa."
+				},
+				{
+					"product": "Il nonno",
+					"price": "15,90 €",
+					"description": "Mortadela, mozzarella fresca, parmesano, ricotta y tomate natural."
+				}
+			]
+		},
+		{
+			"name": "Dolci",
+			"image": "/images/dolci.jpg",
+			"items": [
+				{
+					"product": "Tiramisu di cafe",
+					"price": "5,90 €",
+					"description": "Bizcocho de crema mascarpone, café, nata y amaretto."
+				},
+				{
+					"product": "Tiramisu di limoncello",
+					"price": "5,90 €",
+					"description": "Bizcocho de crema mascarpone, limoncello y nata."
+				},
+				{
+					"product": "Torta di formaggio",
+					"price": "5,90 €",
+					"description": "Tarta de queso con base de galleta y arándanos."
+				},
+				{
+					"product": "Torta capri",
+					"price": "6,90 €",
+					"description": "Tarta con base de cheesecake, cioccolato y crema de pistacho."
+				},
+				{
+					"product": "Pizza di cioccolato",
+					"price": "8,00 €",
+					"description": "Base de pizza recubierta de chocolate."
+				},
+				{
+					"product": "Torta la nonna",
+					"price": "5,90 €",
+					"description": "Bizcocho de manzana con nata y canela."
+				}
+			]
+		},
+		{
+			"name": "Vinos",
+			"image": "/images/vinos.jpg",
+			"items": [
+				{
+					"product": "Lambrusco rosato amabile 27 opere",
+					"price": "14,50 €",
+					"description": "Espumoso – Ceci."
+				},
+				{
+					"product": "Lambrusco rosso amabile 27 opere",
+					"price": "14,50 €",
+					"description": "Espumoso – Ceci."
+				},
+				{
+					"product": "Sangue di giuda",
+					"price": "17,00 €",
+					"description": "Espumoso – Borgo Imperiale."
+				},
+				{
+					"product": "Argeo prosecco brut",
+					"price": "18,00 €",
+					"description": "Espumoso – Ruggeri."
+				},
+				{
+					"product": "Frascati",
+					"price": "14,00 €",
+					"description": "Blanco – DOC Rione."
+				},
+				{
+					"product": "Orvieto classico doc",
+					"price": "14,00 €",
+					"description": "Blanco – DOC Rocca delle macie."
+				},
+				{
+					"product": "Verdejo d.o.",
+					"price": "15,50 €",
+					"description": "Blanco."
+				},
+				{
+					"product": "Cigales d.o.",
+					"price": "16,00 €",
+					"description": "Rosado."
+				},
+				{
+					"product": "Montepulciano d’abruzzo",
+					"price": "18,00 €",
+					"description": "Tinto – DOC Tollo (bio)."
+				},
+				{
+					"product": "Nero d’avola paccamora",
+					"price": "18,00 €",
+					"description": "Tinto – Curatolo Arini."
+				},
+				{
+					"product": "Chianti docg vernaiolo",
+					"price": "17,00 €",
+					"description": "Tinto – Rocca delle macie."
+				},
+				{
+					"product": "Passitivo bio",
+					"price": "19,00 €",
+					"description": "Tinto – Paolo Leo."
+				},
+				{
+					"product": "Valpolicella classico",
+					"price": "24,00 €",
+					"description": "Tinto – Paolo Leo."
+				},
+				{
+					"product": "Ribera del duero",
+					"price": "17,00 €",
+					"description": "Tinto – D.O. Roble."
+				}
+			]
+		}
+	]
+}

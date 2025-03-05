@@ -1,0 +1,22 @@
+---
+/* 
+  Página del menú: Importa los datos del JSON y mapea cada categoría.
+*/
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MenuCategory from '../components/MenuCategory.astro';
+import menuData from '../data/menu.json';
+---
+
+<BaseLayout
+	title='Menú - Trattoria Romolo'
+	description='Descubre nuestro menú con una selección de antipasti, pizzas, dolci y más, preparados con ingredientes frescos y recetas auténticas.'>
+	{
+		menuData.categories.map((category) => (
+			<MenuCategory
+				categoryTitle={category.name}
+				categoryImage={category.image}
+				menuItems={category.items}
+			/>
+		))
+	}
+</BaseLayout>

@@ -1,0 +1,45 @@
+/* /src/styles/global.css */
+
+/* Importar fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globales personalizados */
+
+/* Fondo claro para todo el sitio */
+body {
+	@apply bg-neutral text-gray-800;
+	font-family: 'Open Sans', sans-serif;
+}
+/* Espaciado en la parte superior del contenido */
+
+/* Encabezados con la fuente heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Merriweather', serif;
+}
+
+/* Personalización de enlaces */
+a {
+	@apply text-primary transition-colors duration-300;
+}
+
+a:hover {
+	@apply text-accent;
+}
+
+/* Ejemplo: estilos para botones */
+.btn {
+	@apply bg-primary text-white py-2 px-4 rounded;
+}
+
+.btn:hover {
+	@apply bg-accent;
+}

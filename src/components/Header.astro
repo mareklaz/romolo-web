@@ -1,0 +1,154 @@
+---
+/* Header.astro - Componente de navegación fijo con menú móvil fullscreen y sin scroll */
+---
+
+'use client';
+
+<header class='fixed top-0 left-0 right-0 bg-white shadow z-50'>
+	<!-- Header principal -->
+	<div class='container mx-auto px-4 py-4 flex justify-between items-center'>
+		<!-- Título / Logo -->
+		<div class='text-2xl font-bold text-primary'>Trattoria Romolo</div>
+		<!-- Navegación para escritorio (visible desde md hacia arriba) -->
+		<nav class='hidden md:block'>
+			<ul class='flex space-x-4'>
+				<li>
+					<a
+						href='/#home'
+						class='hover:text-accent'
+						>Inicio</a
+					>
+				</li>
+				<li>
+					<a
+						href='/#about'
+						class='hover:text-accent'
+						>Sobre Nosotros</a
+					>
+				</li>
+				<li>
+					<a
+						href='/menu'
+						class='hover:text-accent'
+						>Menú</a
+					>
+				</li>
+				<li>
+					<a
+						href='/#contact'
+						class='hover:text-accent'
+						>Contacto</a
+					>
+				</li>
+			</ul>
+		</nav>
+		<!-- Botón para menú móvil (visible en pantallas pequeñas) -->
+		<div class='md:hidden'>
+			<button
+				id='mobile-menu-button'
+				aria-label='Abrir menú móvil'>
+				<!-- Icono hamburguesa -->
+				<svg
+					class='w-6 h-6 text-primary'
+					fill='none'
+					stroke='currentColor'
+					viewBox='0 0 24 24'>
+					<path
+						stroke-linecap='round'
+						stroke-linejoin='round'
+						stroke-width='2'
+						d='M4 6h16M4 12h16M4 18h16'
+					></path>
+				</svg>
+			</button>
+		</div>
+	</div>
+
+	<!-- Overlay del menú móvil: cubre toda la pantalla sin posibilidad de scroll -->
+	<div
+		id='mobile-menu'
+		class='fixed inset-0 bg-white z-50 hidden overflow-hidden'>
+		<!-- Header del overlay con título y botón de cerrar, en la misma posición que el header principal -->
+		<div class='container mx-auto px-4 py-4 flex justify-between items-center border-b'>
+			<div class='text-2xl font-bold text-primary'>Trattoria Romolo</div>
+			<button
+				id='mobile-menu-close'
+				aria-label='Cerrar menú móvil'>
+				<svg
+					class='w-6 h-6 text-primary'
+					fill='none'
+					stroke='currentColor'
+					viewBox='0 0 24 24'>
+					<path
+						stroke-linecap='round'
+						stroke-linejoin='round'
+						stroke-width='2'
+						d='M6 18L18 6M6 6l12 12'
+					></path>
+				</svg>
+			</button>
+		</div>
+		<!-- Opciones del menú en formato vertical -->
+		<nav class='mt-8'>
+			<ul class='flex flex-col space-y-4 text-center'>
+				<li>
+					<a
+						href='/#home'
+						class='block text-xl hover:text-accent'
+						onclick='closeMobileMenu()'
+						>Inicio</a
+					>
+				</li>
+				<li>
+					<a
+						href='/#about'
+						class='block text-xl hover:text-accent'
+						onclick='closeMobileMenu()'
+						>Sobre Nosotros</a
+					>
+				</li>
+				<li>
+					<a
+						href='/menu'
+						class='block text-xl hover:text-accent'
+						onclick='closeMobileMenu()'
+						>Menú</a
+					>
+				</li>
+				<li>
+					<a
+						href='/#contact'
+						class='block text-xl hover:text-accent'
+						onclick='closeMobileMenu()'
+						>Contacto</a
+					>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<script is:inline>
+	// Seleccionar elementos del DOM
+	const mobileMenuButton = document.getElementById('mobile-menu-button');
+	const mobileMenu = document.getElementById('mobile-menu');
+	const mobileMenuClose = document.getElementById('mobile-menu-close');
+
+	// Al abrir el menú móvil, se muestra el overlay y se deshabilita el scroll del body
+	mobileMenuButton.addEventListener('click', () => {
+		mobileMenu.classList.remove('hidden');
+		document.body.style.overflow = 'hidden';
+	});
+
+	// Al cerrar el menú, se oculta el overlay y se habilita el scroll
+	mobileMenuClose.addEventListener('click', () => {
+		mobileMenu.classList.add('hidden');
+		document.body.style.overflow = '';
+	});
+
+	// Función para cerrar el menú al hacer clic en alguna opción
+	window.closeMobileMenu = function () {
+		mobileMenu.classList.add('hidden');
+		document.body.style.overflow = '';
+	};
+</script>

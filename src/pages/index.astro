@@ -1,11 +1,27 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+/*
+  Página de inicio que utiliza el layout base e incluye
+  las secciones: Hero, Sobre Nosotros, Menú, Testimonios y Contacto.
+*/
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import AboutSection from '../components/AboutSection.astro';
+import TestimonialsSection from '../components/TestimonialsSection.astro';
+import ContactSection from '../components/ContactSection.astro';
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<BaseLayout
+	title='Trattoria Romolo - Authentic Italian & Neapolitan Pizzeria'
+	description='Disfruta de una experiencia culinaria única en nuestra trattoria, donde la tradición italiana y napolitana se fusionan para ofrecerte auténticos sabores.'>
+	<!-- Sección Hero con imagen destacada -->
+	<Hero />
+
+	<!-- Sección "Sobre Nosotros" con la historia y la esencia de la trattoria -->
+	<AboutSection />
+
+	<!-- Sección de Testimonios de clientes satisfechos -->
+	<TestimonialsSection />
+
+	<!-- Sección de Contacto con formulario de consulta -->
+	<ContactSection />
+</BaseLayout>

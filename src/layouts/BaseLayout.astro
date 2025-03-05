@@ -1,0 +1,50 @@
+---
+/* Importación de Header y Footer */
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+// Props para configurar el SEO
+const { title = 'Trattoria Romolo', description = 'Authentic Italian and Neapolitan pizzeria' } = Astro.props;
+---
+
+<!doctype html>
+<html lang='es'>
+	<head>
+		<meta charset='UTF-8' />
+		<meta
+			name='viewport'
+			content='width=device-width, initial-scale=1.0'
+		/>
+		<title>{title}</title>
+		<meta
+			name='description'
+			content={description}
+		/>
+		<!-- Open Graph para mejorar la presentación en redes -->
+		<meta
+			property='og:title'
+			content={title}
+		/>
+		<meta
+			property='og:description'
+			content={description}
+		/>
+		<meta
+			property='og:type'
+			content='website'
+		/>
+		<!-- Enlace a estilos globales -->
+		<link
+			rel='stylesheet'
+			href='/src/styles/global.css'
+		/>
+	</head>
+	<body class='bg-gray-50 text-gray-800'>
+		<Header />
+		<main>
+			<!-- Renderiza el contenido que se pasa al slot -->
+			<slot />
+		</main>
+		<Footer />
+	</body>
+</html>
